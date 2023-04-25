@@ -10,6 +10,8 @@ function App() {
 			<Routes>
 				<Route path="/" exact element={<Homepage/>} />
 				<Route path="/about" exact element={<About/>} />
+				<Route path="/rentals" exact element={<About/>} />
+				<Route path="/homes" exact element={<About/>} />
 			</Routes>
 		</Router>
 	);
